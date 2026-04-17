@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6877E0;
+    background: linear-gradient(129deg, #6877e0 35%, #7451ab 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 40px;
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 20px #0000002c ;
+     /* box-shadow: 
+     1 - Offset-x -> Deslocamento eixo X (horizontal)
+     2 - Offset-y -> Deslocamento eixo Y (vertical)
+     3 - Blur -> Desfoque da sombra
+     4- Spread -> Expalhamento da sombra
+     5 - Color -> Cor da sombra #000000    
+     */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #667eea;
+    width: 120px;
+    height: 120px;
+    outline: 2px solid #ffffff;
+    outline-offset: -5px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+h3 {
+    color: #6877e0;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+p {
+    text-align: center;
+    line-height: 1.7;
+    color: #555;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+
+}
+
+ul li {
+    list-style: none;
+    background-color: #f7fafc;
+    outline: 2px solid #e2e8f0;
+    border-radius: 20px;
+    padding: 5px 8px;
+    color: #6877e0;
+}
+
+button {
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(129deg, #6877e0 35%, #7451ab 100%);
+    color: #ffffff;
+    padding: 8px 25px;
+    border-radius: 20px;
+    transition: background 3s ease;
+    box-shadow: 0px 0px 10px 5px #6876e05e;
+}
+
+button:hover {
+   background: #000000
+}
+
